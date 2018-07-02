@@ -1,0 +1,21 @@
+﻿{
+  "connection_string": "Data Source=115.236.67.13/ORCL;Persist Security Info=True;User ID=GAKMWICNEW;Password=Gakm316123",
+  "connection_provider": "oracle", // mysql|oracle|sqlserver|
+  "connection_database": "assp",
+
+  "output": "output",
+
+  "driver_type": 0, //0-none 1-petapoco
+
+  "author": "张炜",
+
+  "namespace_model": "GR.Entity",
+  "using_model": "Banana",
+  "constructor": false, //是否生成model构造函数
+
+  "table_prefix": "tb_",
+
+  "namespace_bll": "GR.BLL",
+  "using_bll": "Banana.Core;Banana.Utility;GR.Entity;GR.Common"
+
+}
