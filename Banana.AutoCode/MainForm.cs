@@ -386,7 +386,7 @@ namespace Banana.AutoCode
                 sb.AppendLine();
             }
 
-            sb.AppendLine($"        LogFactory logger = LogFactory.GetLogger(typeof({modelName}BLL));");
+            //sb.AppendLine($"        LogFactory logger = LogFactory.GetLogger(typeof({modelName}BLL));");
             sb.AppendLine("");
             #endregion
 
